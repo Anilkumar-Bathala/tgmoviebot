@@ -50,7 +50,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/upto_teugu_movies'),
+            InlineKeyboardButton('updates', url='https://t.me/upto_telugu_movies_2'),
             InlineKeyboardButton('movie club', url='https://t.me/upto_telugu_movies_group')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
@@ -98,7 +98,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/upto_telugu_movies'),
+            InlineKeyboardButton('updates', url='https://t.me/upto_telugu_movies_2'),
             InlineKeyboardButton('movie club', url='https://t.me/upto_telugu_movies_group')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
@@ -146,8 +146,8 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('support', url='https://t.me/upto_telugu_movies_group'),
-                    InlineKeyboardButton('channel', url='https://t.me/upto_telugu_movies')
+                    InlineKeyboardButton('support', url='https://t.me/upto_telugu_movies_2'),
+                    InlineKeyboardButton('channel', url='https://t.me/+VumXcEPbwZE1NTg1')
                 ],
                 [
                     InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/upto_telugu_movies_group')
@@ -260,8 +260,8 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('support', url='https://t.me/upto_telugu_movies_group'),
-            InlineKeyboardButton('channel', url='https://t.me/upto_telugu_movies')
+            InlineKeyboardButton('support', url='https://t.me/upto_telugu_movies_2'),
+            InlineKeyboardButton('channel', url='https://t.me/torrent_leach_group_by_utm')
         ],
         [
             InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/upto_telugu_movies_group')
