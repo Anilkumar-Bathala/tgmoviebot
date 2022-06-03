@@ -361,8 +361,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('support', url='https://t.me/upto_telugu_movies_group'),
-                InlineKeyboardButton('channel', url='https://t.me/upto_telugu_movies')
+                InlineKeyboardButton('support', url='https://t.me/upto_telugu_movies_2'),
+                InlineKeyboardButton('channel', url='https://t.me/+VumXcEPbwZE1NTg1')
             ],
             [
                 InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/upto_telugu_movies_group')
@@ -415,8 +415,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('support', url='https://t.me/upto_telugu_movies_group'),
-                InlineKeyboardButton('channel', url='https://t.me/upto_telugu_movies')
+                InlineKeyboardButton('support', url='https://t.me/upto_telugu_movies_2'),
+                InlineKeyboardButton('channel', url='https://t.me/+VumXcEPbwZE1NTg1')
             ],
             [
                 InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/upto_telugu_movies_group')
@@ -441,7 +441,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/upto_telugu_movies'),
+            InlineKeyboardButton('updates', url='https://t.me/upto_telugu_movies_2'),
             InlineKeyboardButton('movie club', url='https://t.me/upto_telugu_movies_group')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
@@ -898,14 +898,14 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/upto_telugu_movies")]
+            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/upto_telugu_movies_group")]
         )
     else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/upto_telugu_movies_group")]
+            [InlineKeyboardButton(text="⭕️ Join Our Channel ⭕️",url="https://t.me/+VumXcEPbwZE1NTg1")]
         )
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
